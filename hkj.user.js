@@ -21,7 +21,7 @@
 		}))
 	})(/^https?:\/\/www\.acfun\.(?:com|tv)\/v\//.test(u) &&
 	function($) {
-		$.getScript('https://raw.githubusercontent.com/lovelylain/hkj/master/acfun.js')
+		$.getScript('https://raw.githubusercontent.com/lovelylain/hkj/43be584c27eb36de50e86decb2ae64acfcd433d9/acfun.js')
 	} || /^https?:\/\/(?:www\.bilibili\.(?:com|tv)|bilibili\.kankanews\.com)\/video\//.test(u) &&
 	function($) {
 		$.getScript('http://keyfunc.github.io/bilibili_hkj/assets/js/heikeji.min.js')
